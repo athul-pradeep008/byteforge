@@ -1,0 +1,22 @@
+{
+  "inc-hist-001": {
+    "incident_id": "inc-hist-001",
+    "pattern_name": "4-Stage APT Phishing & Database Exfiltration",
+    "stages": [
+      "phishing_credential_theft",
+      "lateral_movement",
+      "privilege_escalation",
+      "data_exfiltration"
+    ],
+    "event_types": [
+      "auth",
+      "dns",
+      "file_access",
+      "network_flow"
+    ],
+    "sample_queries": [
+      "login.secure-update-verify.com"
+    ],
+    "learned_pattern": "Initial Phish -> RDP/SMB Lateral Move -> Off-Hours Admin Change -> DB Exfil"
+  }
+}

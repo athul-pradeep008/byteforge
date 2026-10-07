@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+pydantic
+scikit-learn
+pandas
+numpy
+networkx
+pytest
+httpx
+python-dotenv
+google-generativeai
+sqlalchemy
+
+
